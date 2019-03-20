@@ -1,7 +1,17 @@
-# Java 学习/面试指南
+<h1 align="center">Java 学习/面试指南</h1>
+
+Java后端技术交流群(限工作一年及以上，群内有免费学习视频和面试资料，**非本仓库作者本人的群**) ：[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-869815609-red.svg)](https://jq.qq.com/?_wv=1027&k=5QqyxIx) 
 
 <div align="center">  
-<img src="http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-11-16/49833984.jpg" width=""/>
+<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo - 副本.png" width=""/>
+</br>
+</div>
+
+<h2 align="center">Special Sponsors</h3>
+<div align="center">  
+<a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">
+  <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/Coding Devops.png" width=""/>
+ </a>
 </br>
 </div>
 
@@ -16,11 +26,12 @@
 ## 目录
 
 * [Java](#java)
-  * [Java/J2EE 基础](#javaj2ee-基础)
-  * [Java 集合框架](#java-集合框架)
-  * [Java 多线程](#java-多线程)
-  * [Java BIO,NIO,AIO](#java-bionioaio)
-  * [Java 虚拟机 jvm](#java-虚拟机-jvm)
+  * [基础](#基础)
+  * [集合框架](#集合框架)
+  * [多线程](#多线程)
+  * [BIO,NIO,AIO](#bionioaio)
+  * [JVM](#jvm)
+  * [Java8 New Features](#java8-new-features)
   * [设计模式](#设计模式)
 * [数据结构与算法](#数据结构与算法)
   * [数据结构](#数据结构)
@@ -44,23 +55,24 @@
 * [闲谈](#闲谈)
 * [说明](#说明)
 
-## 待办
+## ToDoList(待办清单)
 
-* [ ] Java 8 新特性总结
+* [x] [Java 8 新特性总结](https://github.com/Snailclimb/JavaGuide/blob/master/Java/What's%20New%20in%20JDK8/Java8Tutorial.md)
+* [ ] Java 8 新特性详解
 * [ ] Java 多线程类别知识重构
-* [x] BIO,NIO,AIO 总结 
+* [x] [BIO,NIO,AIO 总结 ](https://github.com/Snailclimb/JavaGuide/blob/master/Java/BIO%2CNIO%2CAIO%20summary.md)
 * [ ] Netty 总结
 * [ ] 数据结构总结重构
   
 ## Java
 
-### Java/J2EE 基础
+### 基础
 
 * [Java 基础知识回顾](https://github.com/Snailclimb/Java-Guide/blob/master/Java/Java基础知识.md)
 * [J2EE 基础知识回顾](https://github.com/Snailclimb/Java-Guide/blob/master/Java/J2EE基础知识.md)
 * [Java常见关键字总结：static、final、this、super](https://github.com/Snailclimb/Java-Guide/blob/master/Java/final、static、this、super.md) 
 
-### Java 集合框架
+### 集合框架
 
 * **常见问题总结：**
   * [这几道Java集合框架面试题几乎必问](https://github.com/Snailclimb/Java-Guide/blob/master/Java/这几道Java集合框架面试题几乎必问.md)
@@ -71,7 +83,7 @@
   * [LinkedList 源码学习](https://github.com/Snailclimb/Java-Guide/blob/master/Java/LinkedList.md)   
   * [HashMap(JDK1.8)源码学习](https://github.com/Snailclimb/Java-Guide/blob/master/Java/HashMap.md)  
 
-### Java 多线程
+### 多线程
 
 * [并发编程面试必备：synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化以及 和ReenTrantLock 的对比](https://github.com/Snailclimb/Java_Guide/blob/master/Java/synchronized.md)
 * [并发编程面试必备：乐观锁与悲观锁](https://github.com/Snailclimb/Java-Guide/blob/master/EssentialContentForInterview/面试必备之乐观锁与悲观锁.md)
@@ -80,16 +92,20 @@
 * [BATJ都爱问的多线程面试题](https://github.com/Snailclimb/Java_Guide/blob/master/Java/Multithread/BATJ都爱问的多线程面试题.md)
 * [并发容器总结](https://github.com/Snailclimb/Java_Guide/blob/master/Java/Multithread/并发容器总结.md)
 
-### Java 虚拟机 jvm
+### JVM
 
 * [可能是把Java内存区域讲的最清楚的一篇文章](https://github.com/Snailclimb/Java_Guide/blob/master/Java/可能是把Java内存区域讲的最清楚的一篇文章.md)
 * [搞定JVM垃圾回收就是这么简单](https://github.com/Snailclimb/Java_Guide/blob/master/Java/搞定JVM垃圾回收就是这么简单.md)
 * [《深入理解Java虚拟机》第2版学习笔记](https://github.com/Snailclimb/Java_Guide/blob/master/Java/Java虚拟机（jvm）.md)
 
-### Java BIO,NIO,AIO
+### BIO,NIO,AIO
 
 * [BIO,NIO,AIO 总结 ](https://github.com/Snailclimb/JavaGuide/blob/master/Java/BIO%2CNIO%2CAIO%20summary.md)
 * [Java IO 与 NIO系列文章](https://github.com/Snailclimb/Java_Guide/blob/master/Java/Java%20IO与NIO.md)
+
+### Java8 New Features
+
+* [Java 8 新特性总结](https://github.com/Snailclimb/JavaGuide/blob/master/Java/What's%20New%20in%20JDK8/Java8Tutorial.md)
 
 ### 设计模式
 
@@ -149,6 +165,7 @@
 
 * [MySQL 学习与面试](https://github.com/Snailclimb/Java_Guide/blob/master/数据存储/MySQL.md)
 * [【思维导图-索引篇】搞定数据库索引就是这么简单](https://github.com/Snailclimb/Java_Guide/blob/master/数据存储/MySQL%20Index.md)
+* [一千行MySQL学习笔记](https://github.com/Snailclimb/JavaGuide/blob/master/数据存储/一千行MySQL命令.md)
 
 ### Redis
 
@@ -182,7 +199,7 @@
 
 * [第一周（2018-8-7）](https://github.com/Snailclimb/Java-Guide/blob/master/EssentialContentForInterview/MostCommonJavaInterviewQuestions/第一周（2018-8-7）.md) (为什么 Java 中只有值传递、==与equals、 hashCode与equals)
 * [第二周（2018-8-13）](https://github.com/Snailclimb/Java-Guide/blob/master/EssentialContentForInterview/MostCommonJavaInterviewQuestions/第二周(2018-8-13).md)(String和StringBuffer、StringBuilder的区别是什么？String为什么是不可变的？、什么是反射机制？反射机制的应用场景有哪些？......)
-* [第三周（2018-08-22）](https://github.com/Snailclimb/Java-Guide/blob/master/Java相关/这几道Java集合框架面试题几乎必问.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
+* [第三周（2018-08-22）](https://github.com/Snailclimb/Java-Guide/blob/master/Java/这几道Java集合框架面试题几乎必问.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
 * [第四周(2018-8-30).md](https://github.com/Snailclimb/Java-Guide/blob/master/EssentialContentForInterview/MostCommonJavaInterviewQuestions/第四周(2018-8-30).md) （主要内容是几道面试常问的多线程基础题。）
 
 ## 闲谈  
@@ -253,6 +270,9 @@
 </a>
 <a href="https://github.com/zhyank">  
     <img src="https://avatars0.githubusercontent.com/u/17696240?s=460&v=4" width="45px">
+</a>
+<a href="https://github.com/Goose9527">  
+    <img src="https://avatars2.githubusercontent.com/u/43314997?s=460&v=4" width="45px">
 </a>
 
 ### 公众号
